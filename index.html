@@ -49,8 +49,10 @@
     <!-- Hero Section (Sliding Banner) -->
     <div class="swiper mySwiper">
       <div class="swiper-wrapper">
+        <!-- Slide 1 -->
         <div
-          class="swiper-slide bg-gradient-to-r from-blue-600 to-green-500 text-white text-center py-28"
+          class="swiper-slide text-white text-center py-28"
+          style="background-image: url('./images/auto3.jpg')"
         >
           <h2 class="text-5xl font-extrabold">AI & Automation Solutions</h2>
           <p class="mt-4 text-lg">
@@ -62,8 +64,10 @@
             Start a Project
           </button>
         </div>
+        <!-- Slide 2 -->
         <div
-          class="swiper-slide bg-gradient-to-r from-purple-600 to-blue-500 text-white text-center py-28"
+          class="swiper-slide text-white text-center py-28"
+          style="background-image: url('./images/auto2.jpg')"
         >
           <h2 class="text-5xl font-extrabold">Intelligent Automation</h2>
           <p class="mt-4 text-lg">
@@ -75,8 +79,10 @@
             Get Started
           </button>
         </div>
+        <!-- Slide 3 -->
         <div
-          class="swiper-slide bg-gradient-to-r from-green-600 to-teal-500 text-white text-center py-28"
+          class="swiper-slide text-white text-center py-28"
+          style="background-image: url('./images/auto.jpg')"
         >
           <h2 class="text-5xl font-extrabold">Machine Learning Models</h2>
           <p class="mt-4 text-lg">
@@ -119,38 +125,93 @@
       </div>
     </section>
     <!-- How We Work Section -->
-    <section id="how-we-work" class="max-w-6xl mx-auto text-center py-16">
-      <h3 class="text-4xl font-bold text-gray-800">How We Work</h3>
-      <p class="mt-4 text-gray-600">
-        Our process is structured and efficient to ensure the best results for
-        your business.
-      </p>
-      <div class="grid md:grid-cols-3 gap-8 mt-10">
-        <div
-          class="p-10 bg-gradient-to-r from-red-500 to-orange-500 text-white shadow-lg rounded-xl hover:scale-105 transition"
-        >
-          <h4 class="text-2xl font-semibold">Step 1: Consultation</h4>
-          <p class="mt-4">
-            We start by understanding your business needs and goals.
-          </p>
-        </div>
-        <div
-          class="p-10 bg-gradient-to-r from-teal-500 to-cyan-500 text-white shadow-lg rounded-xl hover:scale-105 transition"
-        >
-          <h4 class="text-2xl font-semibold">Step 2: Strategy Development</h4>
-          <p class="mt-4">
-            Our team crafts a tailored AI and automation strategy.
-          </p>
-        </div>
-        <div
-          class="p-10 bg-gradient-to-r from-indigo-500 to-pink-500 text-white shadow-lg rounded-xl hover:scale-105 transition"
-        >
-          <h4 class="text-2xl font-semibold">
-            Step 3: Implementation & Support
-          </h4>
-          <p class="mt-4">We execute the plan and provide ongoing support.</p>
-        </div>
-      </div>
+    <section id="how-we-work" class="max-w-6xl mx-auto py-16">
+      <h3 class="text-4xl font-bold text-center text-gray-800 mb-12">
+        How We Work
+      </h3>
+      <ol class="relative border-l border-gray-200">
+        <!-- Step 1 -->
+        <li class="mb-10 ml-6">
+          <span
+            class="absolute flex items-center justify-center w-8 h-8 bg-blue-100 rounded-full -left-4 ring-8 ring-white"
+          >
+            <svg
+              class="w-5 h-5 text-blue-600"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v3a1 1 0 00.293.707l2 2a1 1 0 001.414-1.414L11 9.586V7z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </span>
+          <div class="p-6 bg-white border border-gray-200 rounded-lg shadow-sm">
+            <h4 class="mb-2 text-2xl font-semibold text-gray-900">
+              Consultation
+            </h4>
+            <p class="text-gray-700">
+              We begin by understanding your business needs and goals to tailor
+              our AI solutions effectively.
+            </p>
+          </div>
+        </li>
+        <!-- Step 2 -->
+        <li class="mb-10 ml-6">
+          <span
+            class="absolute flex items-center justify-center w-8 h-8 bg-green-100 rounded-full -left-4 ring-8 ring-white"
+          >
+            <svg
+              class="w-5 h-5 text-green-600"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v3a1 1 0 00.293.707l2 2a1 1 0 001.414-1.414L11 9.586V7z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </span>
+          <div class="p-6 bg-white border border-gray-200 rounded-lg shadow-sm">
+            <h4 class="mb-2 text-2xl font-semibold text-gray-900">
+              Strategy Development
+            </h4>
+            <p class="text-gray-700">
+              Our team crafts a customized AI and automation strategy aligned
+              with your objectives.
+            </p>
+          </div>
+        </li>
+        <!-- Step 3 -->
+        <li class="ml-6">
+          <span
+            class="absolute flex items-center justify-center w-8 h-8 bg-purple-100 rounded-full -left-4 ring-8 ring-white"
+          >
+            <svg
+              class="w-5 h-5 text-purple-600"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v3a1 1 0 00.293.707l2 2a1 1 0 001.414-1.414L11 9.586V7z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </span>
+          <div class="p-6 bg-white border border-gray-200 rounded-lg shadow-sm">
+            <h4 class="mb-2 text-2xl font-semibold text-gray-900">
+              Implementation & Support
+            </h4>
+            <p class="text-gray-700">
+              We execute the strategy and provide ongoing support to ensure
+              seamless integration.
+            </p>
+          </div>
+        </li>
+      </ol>
     </section>
 
     <!-- Pricing Section -->
